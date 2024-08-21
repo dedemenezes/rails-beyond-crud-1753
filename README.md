@@ -1,24 +1,7 @@
-# README
+### Important topics to cover today:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. Collection Routes & Member Routes
 
-Things you may want to cover:
+2. Nested Resources
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+4. Validation errors & Render
