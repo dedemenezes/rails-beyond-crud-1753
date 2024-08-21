@@ -25,7 +25,11 @@ Rails.application.routes.draw do
       get :chef
     end
 
-    # WE need to nest in case we need to know the ID of the parent
+    # If inside the block, this means that it is a NESTED resource
+    # Which means:
+    # It starts with parent_resources/:parent_resources_id/the-normal-route
+    # /restaurants/:restaurant_id/reviews
+    # WE need to nest if knowing the ID of the parent is relevant
     resources :reviews, only: [ :new, :create]
   end
 
