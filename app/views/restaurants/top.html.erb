@@ -1,0 +1,14 @@
+<div class="container">
+
+  <h1>5 ⭐ Restaurants</h1>
+
+  <% @restaurants.each do |restaurant| %>
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title"><%= restaurant.name %></h5>
+        <h6 class="card-subtitle mb-2 text-muted"><%= restaurant.address %></h6>
+      </div>
+    </div>
+  <% end %>
+
+</div>
